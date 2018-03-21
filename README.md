@@ -1,6 +1,8 @@
+![rsync](https://user-images.githubusercontent.com/12428027/37691640-0de9d256-2c92-11e8-9adf-19e4203dc0d3.png)
+
 # rsync-incremental backup remoto#
 #Thiago Lopes#
-#Backup utilizando a ferramenta de linha de comando rsync, juntamente com um backup remoto.
+#Backup utilizando a ferramenta de linha de comando rsync, com destino de backup remoto.
 O rsync utiliza o protocolo remote-update, o que aumenta assustadoramente sua velocidade e diminui a quantidade de dados transferidos, pois são trocados entre os servidores somente as diferenças entre dois grupos de arquivos;
 
 Existem dois metodos para executar o backup rsync, uma forma segura no destino no fstab ou inseguro,
@@ -12,6 +14,7 @@ apresentarei as duas formas.
 apt - get install cifs - utils --- para suporte ao cifs
 
 Verificar suporte montagem cifs >  cat /proc/filesystems | grep cifs
+$ nodev	cifs  #Resultado se conter suporte
 
 #Criar Diretório#
 mkdir /mnt/backup
