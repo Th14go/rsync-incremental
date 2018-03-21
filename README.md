@@ -1,4 +1,4 @@
-# rsync-incremental backup remoto# PT
+# rsync-incremental backup remoto#
 #Thiago Lopes#
 #Backup utilizando a ferramenta de linha de comando rsync, juntamente com um backup remoto.
 Existem dois metodos para executar o backup rsync, uma forma segura no destino no fstab ou inseguro,
