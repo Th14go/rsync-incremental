@@ -44,3 +44,4 @@ Devera aparecer a unidade montada com o destino remoto
 Execução do script, lembrando em alterar as variaveis !
 
 #<b>./rsync-incremental</b>
+# Git Clone - https://github.com/Th14go/rsync-incremental
