@@ -27,10 +27,12 @@ nano /etc/fstab
 Desta forma fica visivel no fstab sua senha do computador da rede de destino do backup;
 
 <b>#Forma Segura#</b><br>
-Criar arquivo em / nano .pwdrsync.txt
-chmod 600 .pwdrsync.txt 
-username=usuario
-password=suasenha
+cd / <br>
+nano .pwdrsync.txt <br>
+username=usuario <br>
+password=suasenha <br>
+chmod 600 .pwdrsync.txt <br>
+
 
 //10.9.1.100/backup /mnt/backup cifs credentials=/.pwdrsync.txt,user,dir_mode=0777,file_mode=0777 0 0
 
