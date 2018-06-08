@@ -1,6 +1,6 @@
 ![rsync](https://user-images.githubusercontent.com/12428027/37691640-0de9d256-2c92-11e8-9adf-19e4203dc0d3.png)
 
-# rsync-incremental backup remoto
+
 <i>Thiago Lopes</br>
 Backup utilizando a ferramenta de linha de comando rsync.</i><br>
 <p align="justify">O rsync utiliza o protocolo remote-update, o que aumenta assustadoramente sua velocidade e diminui a quantidade de dados transferidos, pois são trocados entre os servidores somente as diferenças entre dois grupos de arquivos.
