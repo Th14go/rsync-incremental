@@ -2,7 +2,7 @@
 
 # rsync-incremental backup remoto
 <i>Thiago Lopes</br>
-Backup utilizando a ferramenta de linha de comando rsync, com destino de backup remoto.</i><br>
+Backup utilizando a ferramenta de linha de comando rsync.</i><br>
 <p align="justify">O rsync utiliza o protocolo remote-update, o que aumenta assustadoramente sua velocidade e diminui a quantidade de dados transferidos, pois são trocados entre os servidores somente as diferenças entre dois grupos de arquivos.
 Existem dois metodos para executar o backup rsync, uma forma segura no destino no fstab ou inseguro,
 apresentarei as duas formas.</p>
