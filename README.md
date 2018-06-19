@@ -22,7 +22,7 @@ mkdir /mnt/backup
 nano /etc/fstab
 
 <b>#Forma insegura#</b><br>
-//10.9.1.100.backup /mnt/backup cifs username=user,password=senha,user,dir_mode=0777,file_mode=0777 0 0
+//10.9.1.100/backup /mnt/backup cifs username=user,password=senha,user,dir_mode=0777,file_mode=0777 0 0
 
 Desta forma fica visivel no fstab sua senha do computador da rede de destino do backup;
 
